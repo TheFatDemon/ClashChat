@@ -2,3 +2,22 @@ name: ClashChat
 depend: [Chitchat]
 main: com.clashnia.clashchat.ClashChat
 version: 1.0-SNAPSHOT
+permissions:
+  clashchat.godly:
+    default: false
+  clashchat.sexy:
+    default: false
+  clashchat.pro:
+    default: false
+  clashchat.guest:
+    default: false
+  clashchat.member:
+    default: false
+  clashchat.trusted:
+    default: false
+  clashchat.helper:
+    default: false
+  clashchat.mod:
+    default: false
+  clashchat.admin:
+    default: op
