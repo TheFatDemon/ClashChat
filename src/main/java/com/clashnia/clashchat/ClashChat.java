@@ -1,5 +1,6 @@
 package com.clashnia.clashchat;
 
+import com.clashnia.clashchat.tags.ClashNameTag;
 import com.clashnia.clashchat.tags.DonorTag;
 import com.clashnia.clashchat.tags.StaffTag;
 import com.clashnia.clashchat.tags.WorldTag;
@@ -54,7 +55,7 @@ public class ClashChat extends JavaPlugin {
 
         format.add(donorTag);
 
-        NameTag nameTag = new NameTag();
+        NameTag nameTag = new ClashNameTag();
 
         format.add(nameTag);
     }
