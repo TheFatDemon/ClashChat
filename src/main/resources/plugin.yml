@@ -1,0 +1,4 @@
+name: ClashChat
+depend: [Chitchat]
+main: com.clashnia.clashchat.ClashChat
+version: 1.0-SNAPSHOT
